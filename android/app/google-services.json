@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "731761563474",
+    "project_id": "daily-readings-63a7d",
+    "storage_bucket": "daily-readings-63a7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731761563474:android:bf0d5319cafcecfd8c0c8b",
+        "android_client_info": {
+          "package_name": "com.example.daily_readings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731761563474-ug2uto67qs7v7o8rsgan70b8ba7pf8f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsPDQ3AS50XCATGsRkDO3kxy6Bp-UykRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731761563474-ug2uto67qs7v7o8rsgan70b8ba7pf8f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -37,8 +37,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   provider: ^6.0.2
   english_words: ^4.0.0
+  responsive_builder: ^0.4.3
+  responsive_util: ^0.4.0
 
 dev_dependencies:
+  cloud_firestore:
+  firebase_core:
   flutter_test:
     sdk: flutter
 
