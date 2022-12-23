@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
 
-
-
 void main() => runApp(const MyApp());
 
 final ThemeData theme = ThemeData();
@@ -24,4 +22,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
