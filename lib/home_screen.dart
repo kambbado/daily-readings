@@ -14,13 +14,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    bool isSmallScreen = MediaQuery.of(context).size.height < 620;
-    Padding(
-      padding: EdgeInsets.only(
-        top: isSmallScreen ? 44.0 : 88.0,
-        bottom: isSmallScreen ? 18.0 : 33.0,
-      ),
-    );
     return DefaultTabController(
       length: 2,
       child: Scaffold(
