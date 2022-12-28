@@ -132,7 +132,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       context, '/home'); // Navigate to the home page
                 },
               ),
-
               const ListTile(
                 title: Text('Bible'),
                 leading: Icon(Icons.book),
@@ -142,7 +141,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       context, '/bible'); // Navigate to the home page
                 },
               ),
-
               const ListTile(
                 title: Text('Stats'),
                 leading: Icon(Icons.stacked_bar_chart),
@@ -151,7 +149,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   Navigator.pushNamed(context, '/stats');
                 },
               ),
-
               const ListTile(
                 title: Text('Daily Goals'),
                 leading: Icon(Icons.looks_one_sharp),
@@ -160,7 +157,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   Navigator.pushNamed(context, '/goals');
                 },
               ),
-
               const ListTile(
                 title: Text('About'),
                 leading: Icon(Icons.people_alt_rounded),
@@ -169,7 +165,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   Navigator.pushNamed(context, '/about');
                 },
               ),
-
               const ListTile(
                 title: Text('Feedback'),
                 leading: Icon(Icons.format_quote),
@@ -178,7 +173,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   Navigator.pushNamed(context, '/feedback');
                 },
               ),
-
               const ListTile(
                 title: Text('Copyright'),
                 leading: Icon(Icons.copyright),
@@ -212,4 +206,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-

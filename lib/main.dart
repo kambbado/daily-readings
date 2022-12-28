@@ -23,8 +23,6 @@ class MyApp extends StatelessWidget {
         // '/copyright': (context) => CopyrightScreen(),
         // '/privacy': (context) => PrivacyScreen(),
         '/help': (context) => const HelpScreen(),
-
-
       },
       theme: theme.copyWith(
         colorScheme: theme.colorScheme.copyWith(
@@ -36,17 +34,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-// MaterialApp(
-// routes: {
-// '/home': (context) => HomePage(),
-// '/about': (context) => AboutPage(),
-// },
-// // The rest of the app configuration goes here
-// )
-// This will define two routes: one for the home page and one for the about page. You can use the Navigator.pushNamed() function to navigate to these routes by name.
-//
-
-
 
