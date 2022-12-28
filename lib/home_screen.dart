@@ -126,41 +126,82 @@ class _HomeScreenState extends State<HomeScreen> {
               const ListTile(
                 title: Text('Home'),
                 leading: Icon(Icons.home),
+                onTap: () {
+                  Navigator.pop(context); // Close the drawer
+                  Navigator.pushNamed(
+                      context, '/home'); // Navigate to the home page
+                },
               ),
+
               const ListTile(
                 title: Text('Bible'),
                 leading: Icon(Icons.book),
+                onTap: () {
+                  Navigator.pop(context); // Close the drawer
+                  Navigator.pushNamed(
+                      context, '/bible'); // Navigate to the home page
+                },
               ),
+
               const ListTile(
                 title: Text('Stats'),
                 leading: Icon(Icons.stacked_bar_chart),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/stats');
+                },
               ),
+
               const ListTile(
                 title: Text('Daily Goals'),
                 leading: Icon(Icons.looks_one_sharp),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/goals');
+                },
               ),
+
               const ListTile(
                 title: Text('About'),
                 leading: Icon(Icons.people_alt_rounded),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/about');
+                },
               ),
+
               const ListTile(
                 title: Text('Feedback'),
                 leading: Icon(Icons.format_quote),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/feedback');
+                },
               ),
+
               const ListTile(
                 title: Text('Copyright'),
                 leading: Icon(Icons.copyright),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/copyright');
+                },
               ),
               const ListTile(
                 title: Text('Privacy'),
                 leading: Icon(Icons.back_hand),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/privacy');
+                },
               ),
               const ListTile(
                 title: Text('Help'),
                 leading: Icon(Icons.question_mark),
-                // onTap: () {
-                //   Navigator.of(context).pushNamed(XXX.routeName);
-                // },
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/help');
+                },
               ),
               const Text("App version: X.X.X", textAlign: TextAlign.center),
               const Text("Content version: XXX", textAlign: TextAlign.center),
@@ -171,3 +212,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
