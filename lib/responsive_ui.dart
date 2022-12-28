@@ -12,7 +12,7 @@ class ResponsiveUI {
   String _getType() {
     _screenHeight = MediaQuery.of(_context).size.height;
     _screenWidth = MediaQuery.of(_context).size.width;
-    print(_screenWidth);
+    (_screenWidth);
     if (_screenWidth >= 1024) return "desktop";
     if (_screenWidth >= 426) return "tablet";
     return "phone";

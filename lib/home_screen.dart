@@ -158,7 +158,12 @@ class _HomeScreenState extends State<HomeScreen> {
               const ListTile(
                 title: Text('Help'),
                 leading: Icon(Icons.question_mark),
+                // onTap: () {
+                //   Navigator.of(context).pushNamed(XXX.routeName);
+                // },
               ),
+              const Text("App version: X.X.X", textAlign: TextAlign.center),
+              const Text("Content version: XXX", textAlign: TextAlign.center),
             ],
           ),
         ),
