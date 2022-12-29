@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'about_screen.dart';
 import 'copyright_screen.dart';
 import 'help_screen.dart';
 import 'home_screen.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         // '/bible': (context) => BibleScreen(),
         // '/stats': (context) => StatsScreen(),
         // '/goals': (context) => GoalsScreen(),
-        // '/about': (context) => AboutScreen(),
+        '/about': (context) => const AboutScreen(),
         // '/feedback': (context) => FeedbackScreen(),
         '/copyright': (context) => const CopyrightScreen(),
         '/privacy': (context) => const PrivacyScreen(),
