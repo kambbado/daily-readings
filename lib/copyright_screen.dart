@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class PrivacyScreen extends StatelessWidget {
-  const PrivacyScreen({Key? key}) : super(key: key);
+class CopyrightScreen extends StatelessWidget {
+  const CopyrightScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Privacy'),
+        title: const Text('Copyright'),
         centerTitle: true,
       ),
       body: Padding(

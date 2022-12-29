@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'copyright_screen.dart';
 import 'help_screen.dart';
 import 'home_screen.dart';
 import 'privacy_screen.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         // '/goals': (context) => GoalsScreen(),
         // '/about': (context) => AboutScreen(),
         // '/feedback': (context) => FeedbackScreen(),
-        // '/copyright': (context) => CopyrightScreen(),
+        '/copyright': (context) => const CopyrightScreen(),
         '/privacy': (context) => const PrivacyScreen(),
         '/help': (context) => const HelpScreen(),
       },
