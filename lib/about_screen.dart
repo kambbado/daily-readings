@@ -74,6 +74,7 @@ class AboutScreen extends StatelessWidget {
                         fontStyle: FontStyle.italic,
                       ),
                     ),
+
                   ],
                 ),
               ),
