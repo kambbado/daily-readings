@@ -123,75 +123,75 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               ),
-              const ListTile(
-                title: Text('Home'),
-                leading: Icon(Icons.home),
+              ListTile(
+                title: const Text('Home'),
+                leading: const Icon(Icons.home),
                 onTap: () {
                   Navigator.pop(context); // Close the drawer
                   Navigator.pushNamed(
                       context, '/home'); // Navigate to the home page
                 },
               ),
-              const ListTile(
-                title: Text('Bible'),
-                leading: Icon(Icons.book),
+              ListTile(
+                title: const Text('Bible'),
+                leading: const Icon(Icons.book),
                 onTap: () {
                   Navigator.pop(context); // Close the drawer
                   Navigator.pushNamed(
                       context, '/bible'); // Navigate to the home page
                 },
               ),
-              const ListTile(
-                title: Text('Stats'),
-                leading: Icon(Icons.stacked_bar_chart),
+              ListTile(
+                title: const Text('Stats'),
+                leading: const Icon(Icons.stacked_bar_chart),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, '/stats');
                 },
               ),
-              const ListTile(
-                title: Text('Daily Goals'),
-                leading: Icon(Icons.looks_one_sharp),
+              ListTile(
+                title: const Text('Daily Goals'),
+                leading: const Icon(Icons.looks_one_sharp),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, '/goals');
                 },
               ),
-              const ListTile(
-                title: Text('About'),
-                leading: Icon(Icons.people_alt_rounded),
+              ListTile(
+                title: const Text('About'),
+                leading: const Icon(Icons.people_alt_rounded),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, '/about');
                 },
               ),
-              const ListTile(
-                title: Text('Feedback'),
-                leading: Icon(Icons.format_quote),
+              ListTile(
+                title: const Text('Feedback'),
+                leading: const Icon(Icons.format_quote),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, '/feedback');
                 },
               ),
-              const ListTile(
-                title: Text('Copyright'),
-                leading: Icon(Icons.copyright),
+              ListTile(
+                title: const Text('Copyright'),
+                leading: const Icon(Icons.copyright),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, '/copyright');
                 },
               ),
-              const ListTile(
-                title: Text('Privacy'),
-                leading: Icon(Icons.back_hand),
+              ListTile(
+                title: const Text('Privacy'),
+                leading: const Icon(Icons.back_hand),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, '/privacy');
                 },
               ),
-              const ListTile(
-                title: Text('Help'),
-                leading: Icon(Icons.question_mark),
+              ListTile(
+                title: const Text('Help'),
+                leading: const Icon(Icons.question_mark),
                 onTap: () {
                   Navigator.pop(context);
                   Navigator.pushNamed(context, '/help');
