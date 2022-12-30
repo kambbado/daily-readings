@@ -19,20 +19,28 @@ class GoalsScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(top: 60, bottom:10, left:10, right:10),
-                    child: ElevatedButton(
-                      onPressed: () {},
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [Text('SET')],
+                    padding: const EdgeInsets.only(
+                        top: 60, bottom: 10, left: 10, right: 10),
+                    child: SizedBox(
+                      width: 85,
+                      child: ElevatedButton(
+                        onPressed: () {},
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [Text('SET')],
+                        ),
                       ),
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 60, bottom:10, left:10, right:10),
+                    padding: const EdgeInsets.only(
+                        top: 60, bottom: 10, left: 10, right: 10),
                     child: ElevatedButton(
                       onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.grey
+                      ),
                       child: Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -42,7 +50,6 @@ class GoalsScreen extends StatelessWidget {
                   ),
                 ],
               ),
-
               RichText(
                 text: const TextSpan(
                   text: '\nNOT STARTED',
