@@ -7,8 +7,16 @@ class GoalsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {}, icon: const Icon(Icons.check_circle_outline)),
+          IconButton(
+              onPressed: () {}, icon: const Icon(Icons.settings_rounded)),
+          IconButton(
+              onPressed: () {}, icon: const Icon(Icons.calendar_month_sharp)),
+        ],
         title: const Text('Daily Goals'),
-        centerTitle: true,
+        centerTitle: false,
       ),
       body: Padding(
         padding: const EdgeInsets.all(14.0),
@@ -22,7 +30,7 @@ class GoalsScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(
                         top: 60, bottom: 10, left: 10, right: 10),
                     child: SizedBox(
-                      width: 85,
+                      width: 120,
                       child: ElevatedButton(
                         onPressed: () {},
                         child: Row(
@@ -36,15 +44,18 @@ class GoalsScreen extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(
                         top: 60, bottom: 10, left: 10, right: 10),
-                    child: ElevatedButton(
-                      onPressed: () {},
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.grey
-                      ),
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [Text('CANCEL')],
+                    child: SizedBox(
+                      width: 120,
+                      child: ElevatedButton(
+                        onPressed: () {},
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.grey
+                        ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [Text('CANCEL')],
+                        ),
                       ),
                     ),
                   ),
