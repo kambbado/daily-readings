@@ -15,25 +15,37 @@ class GoalsScreen extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              ElevatedButton(
-                onPressed: () {},
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [Text('SET')],
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(top: 60, bottom:10, left:10, right:10),
+                    child: ElevatedButton(
+                      onPressed: () {},
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const [Text('SET')],
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 60, bottom:10, left:10, right:10),
+                    child: ElevatedButton(
+                      onPressed: () {},
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const [Text('CANCEL')],
+                      ),
+                    ),
+                  ),
+                ],
               ),
-              ElevatedButton(
-                onPressed: () {},
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [Text('CANCEL')],
-                ),
-              ),
+
               RichText(
                 text: const TextSpan(
-                  text: '\n\nNOT STARTED',
+                  text: '\nNOT STARTED',
                   style: TextStyle(
                     color: Colors.blueGrey,
                     fontSize: 28,
