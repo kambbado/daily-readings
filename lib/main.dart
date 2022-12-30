@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'about_screen.dart';
 import 'copyright_screen.dart';
 import 'feedback_screen.dart';
+import 'goals_screen.dart';
 import 'help_screen.dart';
 import 'home_screen.dart';
 import 'privacy_screen.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomeScreen(),
         // '/bible': (context) => BibleScreen(),
         // '/stats': (context) => StatsScreen(),
-        // '/goals': (context) => GoalsScreen(),
+        '/goals': (context) => const GoalsScreen(),
         '/about': (context) => const AboutScreen(),
         '/feedback': (context) => const FeedbackScreen(),
         '/copyright': (context) => const CopyrightScreen(),
