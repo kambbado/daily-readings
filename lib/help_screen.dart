@@ -98,7 +98,7 @@ class HelpScreen extends StatelessWidget {
                       ),
                       TextSpan(
                         text:
-                            '\n\nOf course, this is only a suggestion and we would love to hear more from you on how you are using the App. You can send us feedback through the ‘feedback section’ from the slide out menu.',
+                            '\n\nOf course, this is only a suggestion and we would love to hear more from you on how you are using the App. You can send us feedback through the ‘feedback section’ from the slide out menu.\n',
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 18,

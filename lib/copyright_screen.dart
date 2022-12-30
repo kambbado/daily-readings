@@ -42,9 +42,16 @@ class CopyrightScreen extends StatelessWidget {
                       ),
                       TextSpan(
                         text:
-                            'All hymns and hymn tunes in this App are either out of copyright, or the copyright is either owned by Christian Hymns or license has been granted to the Christian Hymns Committee. The App was developed for the Christian Hymns Committee. Further details for individual hymns can be found in the Christian Hymns hymnbook (information on this is available at www.christianhymns.org.uk)',
+                            'All hymns and hymn tunes in this App are either out of copyright, or the copyright is either owned by Christian Hymns or license has been granted to the Christian Hymns Committee. The App was developed for the Christian Hymns Committee. Further details for individual hymns can be found in the Christian Hymns hymnbook (information on this is available at',
                         style: TextStyle(
                           color: Colors.black,
+                          fontSize: 18,
+                        ),
+                      ),
+                      TextSpan(
+                        text: '\nwww.christianhymns.org.uk)',
+                        style: TextStyle(
+                          color: Colors.blueAccent,
                           fontSize: 18,
                         ),
                       ),
@@ -58,7 +65,22 @@ class CopyrightScreen extends StatelessWidget {
                       ),
                       TextSpan(
                         text:
-                            'Each month a new picture is used for both morning and evening readings. All the pictures used in this App are © Copyright Stephen Parker and are used in this App by express permission from the copyright holder. All rights reserved. No permission, either express or implied, is granted for the electronic transmission, storage, retrieval, or printing of the photographs contained in this App. Express written permission must be granted, on behalf of the photographe (copyright holder, Stephen Parker), in order to use these photographs. The images in this App and large number of other pictures can be found at httos://stephen-parker.pixels.com/ along with contact details.',
+                            'Each month a new picture is used for both morning and evening readings. All the pictures used in this App are © Copyright Stephen Parker and are used in this App by express permission from the copyright holder. All rights reserved. No permission, either express or implied, is granted for the electronic transmission, storage, retrieval, or printing of the photographs contained in this App. Express written permission must be granted, on behalf of the photographe (copyright holder, Stephen Parker), in order to use these photographs. The images in this App and large number of other pictures can be found at',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 18,
+                        ),
+                      ),
+                      TextSpan(
+                        text: ' https://stephen-parker.pixels.com/',
+                        style: TextStyle(
+                          color: Colors.blueAccent,
+                          fontSize: 18,
+                        ),
+                      ),
+                      TextSpan(
+                        text:
+                        ' along with contact details.',
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 18,

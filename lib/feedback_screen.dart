@@ -24,7 +24,7 @@ class FeedbackScreen extends StatelessWidget {
                   ),
                   children: [
                     TextSpan(
-                      text: '\n\n   Help us improve the Daily Readings',
+                      text: '\n\n  Help us improve the Daily Readings',
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 20,
@@ -45,7 +45,7 @@ class FeedbackScreen extends StatelessWidget {
                       ),
                     ),
                     TextSpan(
-                      text: '\nor features you think would be useful.\n',
+                      text: '\nor features you think would be useful.',
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 20,
@@ -54,7 +54,7 @@ class FeedbackScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              Image.asset('assets/letter.jpg'),
+              Image.asset('assets/letter.jpg', height: 251, width: 181),
               ElevatedButton(
                 onPressed: () {},
                 child: Row(
