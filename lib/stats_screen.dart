@@ -25,16 +25,19 @@ class StatsScreen extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                  shape: const CircleBorder(),
-                  padding: const EdgeInsets.all(20),
-                  backgroundColor: Colors.blueAccent, // <-- Button color
-                  foregroundColor: Colors.red, // <-- Splash color
+              Padding(
+                padding: const EdgeInsets.only(top: 20.0),
+                child: ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    shape: const CircleBorder(),
+                    padding: const EdgeInsets.all(15),
+                    // backgroundColor: Colors.blueAccent, // <-- Button color
+                    // foregroundColor: Colors.red, // <-- Splash color
+                  ),
+                  child:
+                      const Icon(Icons.menu_book_outlined, color: Colors.white),
                 ),
-                child:
-                    const Icon(Icons.menu_book_outlined, color: Colors.white),
               )
             ],
           ),
