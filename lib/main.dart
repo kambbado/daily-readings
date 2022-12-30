@@ -6,6 +6,7 @@ import 'goals_screen.dart';
 import 'help_screen.dart';
 import 'home_screen.dart';
 import 'privacy_screen.dart';
+import 'stats_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/home': (context) => const HomeScreen(),
         // '/bible': (context) => BibleScreen(),
-        // '/stats': (context) => StatsScreen(),
+        '/stats': (context) => const StatsScreen(),
         '/goals': (context) => const GoalsScreen(),
         '/about': (context) => const AboutScreen(),
         '/feedback': (context) => const FeedbackScreen(),

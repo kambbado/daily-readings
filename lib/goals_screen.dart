@@ -15,8 +15,11 @@ class GoalsScreen extends StatelessWidget {
           IconButton(
               onPressed: () {}, icon: const Icon(Icons.calendar_month_sharp)),
         ],
-        title: const Text('Daily Goals'),
-        centerTitle: false,
+        title: const Padding(
+          padding: EdgeInsets.only(left: 50.0),
+          child: Text('Daily Goals'),
+        ),
+
       ),
       body: Padding(
         padding: const EdgeInsets.all(14.0),
