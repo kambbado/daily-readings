@@ -39,10 +39,11 @@ dependencies:
   english_words: ^4.0.0
   responsive_builder: ^0.4.3
   responsive_util: ^0.4.0
+  firebase_database: ^10.0.9
+  firebase_core: ^2.4.1
 
 dev_dependencies:
   cloud_firestore:
-  firebase_core:
   flutter_test:
     sdk: flutter
 
