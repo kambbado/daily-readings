@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'calendar.dart';
+
 enum Author { spurgeon, ryle }
 
 class HomeScreen extends StatefulWidget {
@@ -51,7 +53,15 @@ class _HomeScreenState extends State<HomeScreen> {
             IconButton(
                 onPressed: () {}, icon: const Icon(Icons.settings_rounded)),
             IconButton(
-                onPressed: () {}, icon: const Icon(Icons.calendar_month_sharp)),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const Calendar(),
+
+                    ),
+                  );
+                }, icon: const Icon(Icons.calendar_month_sharp)),
           ],
         ),
         body: const Padding(
@@ -60,7 +70,9 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               SingleChildScrollView(
                 child: Center(
-                  child: Text(
+                  child:
+                  // Text(json['0/Description']),
+                  Text(
                     "The Lord’s admiration of His church is very wonderful, and His description of her beauty is very glowing. She is not merely beautiful, but ‘altogether beautiful’. He views her in Himself, washed in His sin-atoning blood and clothed in His meritorious righteousness, and He considers her to be full of comeliness and beauty. No wonder that such is the case, since it is but His own perfect excellency that He admires; for the holiness, glory, and perfection of His church are His own glorious garments on the back of His own well-beloved spouse. She is not simply pure, or well-proportioned; she is positively lovely and fair! She has actual merit! Her deformities of sin are removed; but more, she has through her Lord obtained a meritorious righteousness by which an actual beauty is conferred upon her. Believers have a positive righteousness given to them when they become ‘blessed in the beloved’ (Eph. 1:6). Nor is the church barely lovely, she is superlatively so. Her Lord styles her ‘O most beautiful among women’ (Song. 1:8). She has a real worth and excellence which cannot be rivalled by all the nobility and royalty of the world. If Jesus could exchange His elect bride for all the queens and empresses of earth, or even for the angels in heaven, He would not, for He puts her first and foremost — ‘most beautiful among women’. Like the moon she far outshines the stars. Nor is this an opinion which He is ashamed of, for He invites all men to hear it. He sets a ‘behold’ before it, a special note of exclamation, inviting and arresting attention. ‘Behold, you are beautiful, my love, behold, you are beautiful’ (Song. 4:1). His opinion He publishes abroad even now, and one day from the throne of His glory He will avow the truth of it before the assembled universe. ‘Come, you who are blessed by my Father’ (Mt. 25:34), will be His solemn affirmation of the loveliness of His elect.",
                     style: TextStyle(fontSize: 22),
                   ),
