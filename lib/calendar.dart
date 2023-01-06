@@ -28,7 +28,7 @@ class _CalendarState extends State<Calendar> {
         padding: const EdgeInsets.all(0.0),
         child: Column(
           children: [
-            Text("Selected Day = ${today.toString().split(" ")[0]}"),
+            // Text("Selected Day = ${today.toString().split(" ")[0]}"),
             TableCalendar(
               locale: "en_US",
               rowHeight: 43,
@@ -38,7 +38,7 @@ class _CalendarState extends State<Calendar> {
               selectedDayPredicate: (day) => isSameDay(day, today),
               focusedDay: today,
               firstDay: DateTime.utc(2010, 10, 11),
-              lastDay: DateTime.utc(2050, 3, 14),
+              lastDay: DateTime.utc(2100, 3, 14),
               onDaySelected: _onDaySelected,
             ),
           ],

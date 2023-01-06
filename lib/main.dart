@@ -12,12 +12,13 @@ import 'stats_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: const FirebaseOptions(
-      apiKey: 'AIzaSyBsPDQ3AS50XCATGsRkDO3kxy6Bp-UykRk',
-      appId: '1:731761563474:android:bf0d5319cafcecfd8c0c8b',
-      messagingSenderId: '731761563474',
-      projectId: 'daily-readings-63a7d',
-      storageBucket: 'daily-readings-63a7d.appspot.com',
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+    apiKey: 'AIzaSyBsPDQ3AS50XCATGsRkDO3kxy6Bp-UykRk',
+    appId: '1:731761563474:android:bf0d5319cafcecfd8c0c8b',
+    messagingSenderId: '731761563474',
+    projectId: 'daily-readings-63a7d',
+    storageBucket: 'daily-readings-63a7d.appspot.com',
   ));
   runApp(const MyApp());
 }
@@ -52,4 +53,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
